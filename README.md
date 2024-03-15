@@ -1,5 +1,4 @@
 # pocketbase-image
-dockerized pocketbeam image, published on ghcr for easier management
 
 ## Docker Compose Example
 
@@ -21,4 +20,3 @@ volumes:
     name: pocketbase-volume
 ```
 
-Note: if you are using a dockerized reverse proxy, you don't have to publish any ports. Just use the URL `http://<container name>:8090`.
